@@ -3,7 +3,8 @@
       margin: 0;
     }
     
-    $color_1: #200f6d93;
+    $color_1: #420202;
+    $color_4: #800000;
     $color_2: rgb(247, 228, 228);
     $color_3: #050609;
 
@@ -122,7 +123,7 @@ main {
   float: right;
   section {
     height: 100vh;
-    background-color: black;
+    background-color: $color_4;
     margin-bottom: 20px;
       h2 {
         background-color: transparent;
@@ -143,10 +144,7 @@ main {
         }
       }
   }
-  #about {
-    background-image: url(imgs/about.jpg);
-    background-position: center;
-    background-size: cover;
+  #about {  
     p {
       font-family: 'Quicksand', sans-serif;
       color: $color_2;
@@ -157,9 +155,6 @@ main {
     }
   }
   #experience {
-    background-image: url(imgs/about.jpg);
-    background-position: center;
-    background-size: cover;
     .flex {
       height: 100%;
       width: 100%;
@@ -189,9 +184,6 @@ main {
     } 
   }
   #qualification {
-    background-image: url(imgs/about.jpg);
-    background-position: center;
-    background-size: cover;
     .flex {
       height: 100%;
       width: 100%;
@@ -219,6 +211,35 @@ main {
         }
       }
     } 
+  }
+  #contact {
+    .flex {
+      height: 100%;
+      width: 100%;
+      div {
+        width: 25%;
+        i {
+          padding: 5px;
+        }
+        h3 {
+          font-family: 'Quicksand', sans-serif;
+          font-size: 1.3rem;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: $color_2;
+          display: block;
+          border-bottom: 3px solid $color_2;
+          padding: 15px;
+          margin: 10px;
+        }
+        p {
+          color: $color_2;
+          font-size: 1.5rem;
+          padding: 15px;
+          font-family: 'Quicksand', sans-serif;
+        }
+      }
+    }
   }
 }
 // end of main styling
