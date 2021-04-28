@@ -204,6 +204,7 @@ main #experience .flex div {
 main #experience .flex div h3 {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.3rem;
+  text-transform: uppercase;
   font-weight: 700;
   color: #f7e4e4;
   display: block;
@@ -213,6 +214,49 @@ main #experience .flex div h3 {
 }
 
 main #experience .flex div p {
+  color: #f7e4e4;
+  padding: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+main #qualification {
+  background-image: url(imgs/about.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+main #qualification .flex {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #qualification .flex div {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 25%;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+main #qualification .flex div h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f7e4e4;
+  display: block;
+  border-bottom: 3px solid #f7e4e4;
+  padding: 15px;
+  margin: 10px;
+}
+
+main #qualification .flex div p {
   color: #f7e4e4;
   padding: 15px;
   font-family: 'Quicksand', sans-serif;
