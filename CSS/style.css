@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: #800000;
+  background-color: #200f6d93;
   background-position: center;
   background-size: cover;
   background-repeat: none;
@@ -34,7 +34,7 @@ header .your-image {
   margin: 10px auto;
   border: 1.5px solid;
   border-radius: 50%;
-  background-color: #800000;
+  background-color: #200f6d93;
   outline: none;
 }
 
@@ -63,7 +63,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-  border-left: 5px solid #800000;
+  border-left: 5px solid #200f6d93;
   border-radius: 0px 0px 0px 10px;
 }
 
@@ -75,7 +75,7 @@ header nav ul li a {
   display: block;
   text-decoration: none;
   padding: 10px;
-  color: #800000;
+  color: #200f6d93;
   font-family: 'Antonio', sans-serif;
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
@@ -104,7 +104,7 @@ header .social-list li a i {
   width: 10px;
   padding: 5px;
   border-radius: 50%;
-  background-color: #800000;
+  background-color: #200f6d93;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
   opacity: 1;
@@ -127,7 +127,7 @@ header .licence a {
 }
 
 header .licence a:hover {
-  color: #800000;
+  color: #200f6d93;
 }
 
 main {
@@ -137,25 +137,44 @@ main {
 
 main section {
   height: 100vh;
-  background-color: #f7e4e4;
+  background-color: black;
   margin-bottom: 20px;
 }
 
 main section h2 {
+  background-color: transparent;
   width: 90%;
   font-size: 3rem;
   font-family: 'Antonio';
   text-decoration: underline;
   text-align: left;
-  border-bottom: 5px solid #050609;
+  border-bottom: 5px solid #695757;
   line-height: 0.1em;
   margin: 0px 0 20px;
-  padding-top: 30px;
+  padding-top: 28px;
 }
 
 main section h2 span {
-  background: #f7e4e4;
+  background: transparent;
+  color: #f7e4e4;
   padding: 0 10px;
   text-transform: uppercase;
+}
+
+main section p {
+  font-family: merriweather;
+  color: #f7e4e4;
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2rem;
+  padding: 50px;
+}
+
+main #about {
+  background-image: url(imgs/about.jpg);
+  background-position: center;
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */

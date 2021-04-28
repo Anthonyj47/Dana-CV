@@ -3,7 +3,7 @@
       margin: 0;
     }
     
-    $color_1: #800000;
+    $color_1: #200f6d93;
     $color_2: rgb(247, 228, 228);
     $color_3: #050609;
 
@@ -122,24 +122,42 @@ main {
   float: right;
   section {
     height: 100vh;
-    background-color: $color_2;
+    background-color: black;
     margin-bottom: 20px;
       h2 {
+        background-color: transparent;
         width: 90%; 
         font-size: 3rem;
         font-family: 'Antonio';
         text-decoration: underline;
         text-align: left; 
-        border-bottom: 5px solid $color_3; 
+        border-bottom: 5px solid rgb(105, 87, 87); 
         line-height: 0.1em;
         margin: 0px 0 20px;
-        padding-top: 30px;
+        padding-top: 28px;
         span {
-          background:$color_2; 
+          background: transparent; 
+          color: $color_2;
           padding:0 10px; 
           text-transform: uppercase;
         }
       }
+      p {
+        font-family: merriweather;
+        color: $color_2;
+        font-size: 1.3rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 2rem;
+        padding: 50px;
+      }
+  }
+  #about {
+    background-image: url(imgs/about.jpg);
+    background-position: center;
+    background-size: cover  ;
   }
 }
 // end of main styling
+
