@@ -142,21 +142,50 @@ main {
           text-transform: uppercase;
         }
       }
-      p {
-        font-family: merriweather;
-        color: $color_2;
-        font-size: 1.3rem;
-        font-weight: 800;
-        text-transform: uppercase;
-        text-align: center;
-        line-height: 2rem;
-        padding: 50px;
-      }
   }
   #about {
     background-image: url(imgs/about.jpg);
     background-position: center;
-    background-size: cover  ;
+    background-size: cover;
+    p {
+      font-family: 'Quicksand', sans-serif;
+      color: $color_2;
+      font-size: 1.3rem;
+      text-align: center;
+      line-height: 2rem;
+      padding: 50px;
+    }
+  }
+  #experience {
+    background-image: url(imgs/about.jpg);
+    background-position: center;
+    background-size: cover;
+    .flex {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      div {
+        height: fit-content;
+        width: 25%;
+        flex-basis: 25%;
+        h3 {
+          font-family: 'Quicksand', sans-serif;
+          font-size: 1.3rem;
+          font-weight: 700;
+          color: $color_2;
+          display: block;
+          border-bottom: 3px solid $color_2;
+          padding: 15px;
+          margin: 10px;
+        }
+        p {
+          color: $color_2;
+          padding: 15px;
+          font-family: 'Quicksand', sans-serif;
+        }
+      }
+    } 
   }
 }
 // end of main styling
