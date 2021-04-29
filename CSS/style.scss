@@ -21,6 +21,16 @@
       background-attachment: fixed;
     }
 
+    .to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      color: $color_1;
+      z-index: 99;
+    
+      background-color: $color_3;
+    }
+
   //Start of header styling
   header {
     .side-strip {
@@ -88,7 +98,7 @@
         color: $color_3;
         i {
           height: 10px;
-          width: 10px;
+          width: 15px;
           padding: 5px;
           border-radius: 50%;
           background-color: $color_1;

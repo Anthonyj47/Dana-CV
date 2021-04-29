@@ -15,6 +15,15 @@ body {
   background-attachment: fixed;
 }
 
+.to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #420202;
+  z-index: 99;
+  background-color: #050609;
+}
+
 header .side-strip {
   position: fixed;
   left: 0;
@@ -101,7 +110,7 @@ header .social-list li a {
 
 header .social-list li a i {
   height: 10px;
-  width: 10px;
+  width: 15px;
   padding: 5px;
   border-radius: 50%;
   background-color: #420202;
