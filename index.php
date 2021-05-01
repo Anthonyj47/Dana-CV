@@ -75,8 +75,17 @@
         <section style="margin-bottom: 0;" id="contact">
             <h2><span>Contact</span></h2>
             <div class="flex">
+                <div class="cont-form">
+                    <h3>Contact Me</h3>
+                    <form class="contact-form" action="contactform.php" method="post">
+                        <input type="text" name="name" placeholder="Full Name...">
+                        <input type="text" name="email" placeholder="Email...">
+                        <input type="text" name="subject" placeholder="Subject...">
+                        <textarea name="massage" placeholder="Message..." cols="30" rows="10"></textarea>
+                        <button type="submit" name="submit">Send    </button>
+                    </form>
+                </div>
                 <div>
-                    
                     <h3><i class="fas fa-phone"></i>Phone Number</h3>
                     <p>+27715057402</p>
                 </div>

@@ -110,7 +110,7 @@ header .social-list li a {
 
 header .social-list li a i {
   height: 10px;
-  width: 15px;
+  width: 10px;
   padding: 5px;
   border-radius: 50%;
   background-color: #420202;
@@ -256,10 +256,23 @@ main #qualification .flex div p {
 main #contact .flex {
   height: 100%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 main #contact .flex div {
   width: 25%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 main #contact .flex div i {
@@ -283,5 +296,25 @@ main #contact .flex div p {
   font-size: 1.5rem;
   padding: 15px;
   font-family: 'Quicksand', sans-serif;
+}
+
+main #contact .flex .cont-form {
+  width: 100%;
+}
+
+main #contact .flex .cont-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #contact .flex .cont-form form input {
+  width: 75%;
+  padding: 20px;
+  margin: 10px auto;
 }
 /*# sourceMappingURL=style.css.map */
