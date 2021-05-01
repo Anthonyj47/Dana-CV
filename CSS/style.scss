@@ -259,9 +259,30 @@ main {
             display: flex;
             flex-direction: column;
               input {
+                font-family: 'quicksand';
+                font-size: 1.2rem;
                 width: 75%;
                 padding: 20px;
                 margin: 10px auto;
+                text-align: center;
+                outline: none;
+              }
+              textarea {
+                font-family: 'quicksand';
+                font-size: 1.2rem;
+                width: 75%;
+                padding: 20px;
+                margin: 10px auto;
+                text-align: center;
+                outline: none;
+                resize: none;
+              }
+              button {
+                font-family: 'quicksand';
+                font-size: 1.2rem;
+                width: 25%;
+                padding: 20px;
+                margin: 0 auto;
               }
           }
       } 

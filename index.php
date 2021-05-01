@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dana Raffaela Józsa</title>
+    <link rel="shortcut icon" href="css/imgs/portrait.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&display=swap" rel="stylesheet">
@@ -81,7 +82,7 @@
                         <input type="text" name="name" placeholder="Full Name...">
                         <input type="text" name="email" placeholder="Email...">
                         <input type="text" name="subject" placeholder="Subject...">
-                        <textarea name="massage" placeholder="Message..." cols="30" rows="10"></textarea>
+                        <textarea name="massage" placeholder="Message..."></textarea>
                         <button type="submit" name="submit">Send    </button>
                     </form>
                 </div>
@@ -97,8 +98,6 @@
         </section>
     </main>
 </body>
-<?php
 
-?>
     <script src="JS/main.js"></script>
 </html>

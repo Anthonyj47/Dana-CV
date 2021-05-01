@@ -313,8 +313,31 @@ main #contact .flex .cont-form form {
 }
 
 main #contact .flex .cont-form form input {
+  font-family: 'quicksand';
+  font-size: 1.2rem;
   width: 75%;
   padding: 20px;
   margin: 10px auto;
+  text-align: center;
+  outline: none;
+}
+
+main #contact .flex .cont-form form textarea {
+  font-family: 'quicksand';
+  font-size: 1.2rem;
+  width: 75%;
+  padding: 20px;
+  margin: 10px auto;
+  text-align: center;
+  outline: none;
+  resize: none;
+}
+
+main #contact .flex .cont-form form button {
+  font-family: 'quicksand';
+  font-size: 1.2rem;
+  width: 25%;
+  padding: 20px;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
