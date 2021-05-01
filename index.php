@@ -97,5 +97,8 @@
         </section>
     </main>
 </body>
+<?php
+
+?>
     <script src="JS/main.js"></script>
 </html>
