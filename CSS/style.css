@@ -339,5 +339,14 @@ main #contact .flex .cont-form form button {
   width: 25%;
   padding: 20px;
   margin: 0 auto;
+  border-radius: 10px;
+  border-bottom: 5px solid #250202;
+  outline: none;
+}
+
+main #contact .flex .cont-form form button:focus {
+  position: relative;
+  top: 5px;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */

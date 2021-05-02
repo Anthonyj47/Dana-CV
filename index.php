@@ -75,7 +75,7 @@
         </section>
         <section style="margin-bottom: 0;" id="contact">
             <h2><span>Contact</span></h2>
-            <div class="flex">
+            <div class="flex
                 <div class="cont-form">
                     <h3>Contact Me</h3>
                     <form class="contact-form" action="contactform.php" method="post">
@@ -92,7 +92,7 @@
                 </div>
                 <div>
                     <h3><i class="fas fa-envelope"></i>Email</h3>
-                    <p>danajozsa@gemil.com</p>
+                    <p>danajozsa@gmail.com</p>
                 </div>
             </div>
         </section>
