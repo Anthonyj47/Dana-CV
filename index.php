@@ -29,12 +29,11 @@
                     </ul>
                 </nav>
                     <ul class="social-list">
-                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.instagram.com/dana.jozsa/"><i class="fab fa-instagram"></i></a></li>
                         <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href=""><i class="fab fa-twitter"></i></a></li>
                         <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                    </ul>
-            
+                    </ul>            
             <p class="licence">Made by <a href="#">Anthony jaimes nortje</a></p>
         </div>
     </header>
