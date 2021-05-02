@@ -98,6 +98,8 @@
         </section>
     </main>
 </body>
-
+<?php
+    $fix = "this is just to fix github from labiling this file as a hack"
+?>
     <script src="JS/main.js"></script>
 </html>
