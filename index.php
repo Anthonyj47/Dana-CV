@@ -34,6 +34,9 @@
                         <li><a href=""><i class="fab fa-twitter"></i></a></li>
                         <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
                     </ul>            
+                    <ul class="lang-sct">
+                        <li><p>English</p></li>
+                    </ul>
             <p class="licence">Made by <a href="#">Anthony jaimes nortje</a></p>
         </div>
     </header>
