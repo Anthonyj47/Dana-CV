@@ -33,8 +33,9 @@
                         <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href=""><i class="fab fa-twitter"></i></a></li>
                         <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><i class="fas fa-globe lang-btn"></i>
-                            <ul>
+                        <li class="lang" >
+                            <i class="fas fa-globe"></i>
+                            <ul class="lang-dropdown">
                                 <li><a href="#">English</a></li>
                                 <li><a href="#">German</a></li>
                                 <li><a href="#">Dutch</a></li>
