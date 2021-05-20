@@ -106,7 +106,8 @@
     </main>
 </body>
 <?php
-    $fix = "this is just to fix github from labiling this file as a hack"
+    $fix = "this is just to fix github from labiling this file as a hack";
+    echo $fix
 ?>
     <script src="JS/main.js"></script>
 </html>
