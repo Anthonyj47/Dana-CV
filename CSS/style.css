@@ -123,15 +123,39 @@ header .social-list li a i:hover {
   opacity: 0.7;
 }
 
-header .social-list .lang {
+header .lang {
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  text-align: center;
+}
+
+header .lang:hover .lang-dropdown {
+  opacity: 1;
+  right: 0;
+}
+
+header .lang .lang-dropdown {
+  opacity: 0;
+  position: relative;
+  right: 10px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+header .lang .lang-dropdown li {
+  text-align: center;
+}
+
+header .lang .lang-dropdown li a {
+  display: block;
+  font-family: "antonio";
+  text-decoration: none;
+  background-color: #420202;
+  padding: 3px;
+  border-radius: 10%;
+}
+
+header .lang .lang-dropdown li a:hover {
+  background-color: #800000;
 }
 
 header .licence {
