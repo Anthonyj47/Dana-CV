@@ -22,10 +22,10 @@
             <h2 class="name">Dana Raffaela Józsa</h2>
                 <nav>
                     <ul>
-                        <li style="border-top: 2px solid #ccd;"><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#qualification">Qualification</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li style="border-top: 2px solid #ccd;"><a href="#about" class="nav-about">About</a></li>
+                        <li><a class="nav-exp" href="#experience">Experience</a></li>
+                        <li><a class="nav-quali" href="#qualification">Qualification</a></li>
+                        <li><a href="#contact" class="nav-cont">Contact</a></li>
                     </ul>
                 </nav>
                     <ul class="social-list">
@@ -36,9 +36,9 @@
                         <li class="lang" >
                             <i class="fas fa-globe"></i>
                             <ul class="lang-dropdown">
-                                <li><a class="english-btn" href="#">English</a></li>
-                                <li><a class="german-btn " href="#">German</a></li>
-                                <li><a class="dutch-btn" href="#">Dutch</a></li>
+                                <li onclick="chng_eng()"><a class="english-btn" href="#">English</a></li>
+                                <li onclick="chng_ger()"><a  class="german-btn " href="#">German</a></li>
+                                <li onclick="chng_dch()"><a class="dutch-btn" href="#">Dutch</a></li>
                             </ul>
                         </li>
                     </ul>            
@@ -47,20 +47,20 @@
     </header>
     <main>
         <section id="about">
-            <h2><span>ABOUT ME</span></h2>
-            <p>My name is Dana Raffaela Józsa. I was born in Bonn, German on 22de December 2002. At the age of 4 I moved with my family to Drenthe in the Netherlands where we stayed for 1.5 years, then back to Bonn. Following a longer stay in Bonn I relocated to Cape Town, South Africa, in 2014. In Cape Town I graduated from a bilingual (German/English) internal School (Deutsche Schule Kapstadt) with a German Allgemeine Hochshulreife/Abitur and a South African Matric (IEB) in 2020. Having experienced life in three countries has made me very passionate about different cultures and the people who follow individual ways of life. I recently accepted my placement at te University of Amsterdam where I will study for my Bachelor in Phychology(Bachelor of Science), Furthermore, I will strive to gain my Bachelor degree, a following Master degree and a PhD in Phychology and thereafter become a psychologist or psychotherapist.</p>
+            <h2><span class="about-title">ABOUT ME</span></h2>
+            <p class="about-body">My name is Dana Raffaela Józsa. I was born in Bonn, German on 22de December 2002. At the age of 4 I moved with my family to Drenthe in the Netherlands where we stayed for 1.5 years, then back to Bonn. Following a longer stay in Bonn I relocated to Cape Town, South Africa, in 2014. In Cape Town I graduated from a bilingual (German/English) internal School (Deutsche Schule Kapstadt) with a German Allgemeine Hochshulreife/Abitur and a South African Matric (IEB) in 2020. Having experienced life in three countries has made me very passionate about different cultures and the people who follow individual ways of life. I recently accepted my placement at te University of Amsterdam where I will study for my Bachelor in Phychology(Bachelor of Science), Furthermore, I will strive to gain my Bachelor degree, a following Master degree and a PhD in Phychology and thereafter become a psychologist or psychotherapist.</p>
         </section>
         <section id="experience">
-            <h2><span>Experience</span></h2>
+            <h2><span class="exp-title">Experience</span></h2>
             <div class="flex">
                 <div>
-                    <h3>Lifesaving</h3>
-                    <p>LLANDUDNO SURF LIFESAVING CLUB / Cape Town <br> Mar 2019/Jan 2020</p>
+                    <h3 class="exp-name">Lifesaving</h3>
+                    <p class="exp-body">LLANDUDNO SURF LIFESAVING CLUB / Cape Town <br> Mar 2019/Jan 2020</p>
                 </div>
             </div>
         </section>
         <section id="qualification">
-            <h2><span>Education / qualifications</span></h2>
+            <h2><span class="quali-title">Education / qualifications</span></h2>
             <div class="flex">
                 <div>
                     <h3>CBS DE FONTEIN</h3>
@@ -81,20 +81,20 @@
             </div>
         </section>
         <section style="margin-bottom: 0;" id="contact">
-            <h2><span>Contact</span></h2>
+            <h2><span class="cont-title">Contact</span></h2>
             <div class="flex">
                 <div class="cont-form">
-                    <h3>Contact Me</h3>
+                    <h3 class="cont-form-title">Contact Me</h3>
                     <form class="contact-form" action="contactform.php" method="post">
-                        <input type="text" name="name" placeholder="Full Name...">
-                        <input type="text" name="email" placeholder="Email...">
-                        <input type="text" name="subject" placeholder="Subject...">
-                        <textarea name="massage" placeholder="Message..."></textarea>
-                        <button type="submit" name="submit">Send    </button>
+                        <input class="cont-name" type="text" name="name" placeholder="Full Name...">
+                        <input class="cont-email" type="text" name="email" placeholder="Email...">
+                        <input class="cont-sub" type="text" name="subject" placeholder="Subject...">
+                        <textarea class="cont-msg" name="massage" placeholder="Message..."></textarea>
+                        <button class="cont-submit" type="submit" name="submit">Send</button>
                     </form>
                 </div>
                 <div>
-                    <h3><i class="fas fa-phone"></i>Phone Number</h3>
+                    <h3 class="cont-number"><i class="fas fa-phone"></i>Contact Number</h3>
                     <p>+27715057402</p>
                 </div>
                 <div>
@@ -104,10 +104,10 @@
             </div>
         </section>
     </main>
+    <script src="JS/main.js"></script>
 </body>
 <?php
     $fix = "this is just to fix github from labiling this file as a hack";
     echo $fix
 ?>
-    <script src="JS/main.js"></script>
 </html>
