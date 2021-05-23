@@ -36,9 +36,9 @@
                         <li class="lang" >
                             <i class="fas fa-globe"></i>
                             <ul class="lang-dropdown">
-                                <li><a href="#">English</a></li>
-                                <li><a href="#">German</a></li>
-                                <li><a href="#">Dutch</a></li>
+                                <li><a class="english-btn" href="#">English</a></li>
+                                <li><a class="german-btn " href="#">German</a></li>
+                                <li><a class="dutch-btn" href="#">Dutch</a></li>
                             </ul>
                         </li>
                     </ul>            
