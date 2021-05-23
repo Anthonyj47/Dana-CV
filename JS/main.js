@@ -1,37 +1,37 @@
 document.querySelector(".english-btn").style.backgroundColor ="#800000";
 
-// function chng_eng() {
-//     // navigation-bar
-//     document.querySelector(".nav-about").innerHTML = "About";
-//     document.querySelector(".nav-exp").innerHTML = "Experience";
-//     document.querySelector(".nav-quali").innerHTML = "Qualification";
-//     document.querySelector(".nav-cont").innerHTML = "Contact";
+function chng_eng() {
+    // navigation-bar
+    document.querySelector(".nav-about").innerHTML = "About";
+    document.querySelector(".nav-exp").innerHTML = "Experience";
+    document.querySelector(".nav-quali").innerHTML = "Qualification";
+    document.querySelector(".nav-cont").innerHTML = "Contact";
 
-//     // about me
-//     document.querySelector(".about-title").innerHTML = "About Me";
-//     document.querySelector(".about-body").innerHTML = "My name is Dana Raffaela Józsa. I was born in Bonn, German on 22de December 2002. At the age of 4 I moved with my family to Drenthe in the Netherlands where we stayed for 1.5 years, then back to Bonn. Following a longer stay in Bonn I relocated to Cape Town, South Africa, in 2014. In Cape Town I graduated from a bilingual (German/English) internal School (Deutsche Schule Kapstadt) with a German Allgemeine Hochshulreife/Abitur and a South African Matric (IEB) in 2020. Having experienced life in three countries has made me very passionate about different cultures and the people who follow individual ways of life. I recently accepted my placement at te University of Amsterdam where I will study for my Bachelor in Phychology(Bachelor of Science), Furthermore, I will strive to gain my Bachelor degree, a following Master degree and a PhD in Phychology and thereafter become a psychologist or psychotherapist.";
+    // about me
+    document.querySelector(".about-title").innerHTML = "About Me";
+    document.querySelector(".about-body").innerHTML = "My name is Dana Raffaela Józsa. I was born in Bonn, German on 22de December 2002. At the age of 4 I moved with my family to Drenthe in the Netherlands where we stayed for 1.5 years, then back to Bonn. Following a longer stay in Bonn I relocated to Cape Town, South Africa, in 2014. In Cape Town I graduated from a bilingual (German/English) internal School (Deutsche Schule Kapstadt) with a German Allgemeine Hochshulreife/Abitur and a South African Matric (IEB) in 2020. Having experienced life in three countries has made me very passionate about different cultures and the people who follow individual ways of life. I recently accepted my placement at te University of Amsterdam where I will study for my Bachelor in Phychology(Bachelor of Science), Furthermore, I will strive to gain my Bachelor degree, a following Master degree and a PhD in Phychology and thereafter become a psychologist or psychotherapist.";
 
-//     // experience
-//     document.querySelector(".exp-title").innerHTML = "Experience";
-//     document.querySelector(".exp-name").innerHTML = "Lifesaving";
-//     document.querySelector(".exp-body").innerHTML = "LLANDUDNO SURF LIFESAVING CLUB / Cape Town ";
+    // experience
+    document.querySelector(".exp-title").innerHTML = "Experience";
+    document.querySelector(".exp-name").innerHTML = "Lifesaving";
+    document.querySelector(".exp-body").innerHTML = "LLANDUDNO SURF LIFESAVING CLUB / Cape Town ";
 
-//      // qualification
-//      document.querySelector(".quali-title").innerHTML = "Education / qualifications";
+     // qualification
+     document.querySelector(".quali-title").innerHTML = "Education / qualifications";
 
-//     // Contact
-//     document.querySelector(".cont-title").innerHTML = "Contact";
-//     document.querySelector(".cont-form-title").innerHTML = "Contact Me";
-//     document.querySelector(".cont-name").placeholder = "Full Name...";
-//     document.querySelector(".cont-sub").placeholder = "Subject...";
-//     document.querySelector(".cont-msg").placeholder = "Message...";
-//     document.querySelector(".cont-submit").placeholder = "Send";
-//     document.querySelector(".cont-number").placeholder = "Contact Number";
+    // Contact
+    document.querySelector(".cont-title").innerHTML = "Contact";
+    document.querySelector(".cont-form-title").innerHTML = "Contact Me";
+    document.querySelector(".cont-name").placeholder = "Full Name...";
+    document.querySelector(".cont-sub").placeholder = "Subject...";
+    document.querySelector(".cont-msg").placeholder = "Message...";
+    document.querySelector(".cont-submit").placeholder = "Send";
+    document.querySelector(".cont-number").placeholder = "Contact Number";
 
-//     document.querySelector(".dutch-btn").style.backgroundColor ="#420202";
-//     document.querySelector(".english-btn").style.backgroundColor ="#800000";
-//     document.querySelector(".german-btn").style.backgroundColor = "#420202";
-// }
+    document.querySelector(".dutch-btn").style.backgroundColor ="#420202";
+    document.querySelector(".english-btn").style.backgroundColor ="#800000";
+    document.querySelector(".german-btn").style.backgroundColor = "#420202";
+}
 
 function chng_ger() {
     // navigation-bar

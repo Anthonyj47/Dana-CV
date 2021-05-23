@@ -108,6 +108,5 @@
 </body>
 <?php
     $fix = "this is just to fix github from labiling this file as a hack";
-    echo $fix
 ?>
 </html>
