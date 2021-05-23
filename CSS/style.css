@@ -150,8 +150,9 @@ header .lang .lang-dropdown li a {
   font-family: "antonio";
   text-decoration: none;
   background-color: #420202;
+  color: #ccd;
   padding: 3px;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 header .lang .lang-dropdown li a:hover {
